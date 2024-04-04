@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Resume</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: black;
+      color: #080808;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #dfcccc;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .box {
+      width: 95%;
+      margin-bottom: 20px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      background-color:rgb(243, 186, 205);
+      text-align:center; 
+    }
+
+    .header {
+      text-align: justify;
+      margin-bottom: 30px;
+    }
+    .head {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .img-area img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 5px solid #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+
+    h1, h2, h3 {
+      color: #333;
+    }
+
+    h1 {
+      margin-top: 10px;
+      font-size: 2.5em;
+    }
+
+    h2 {
+      margin-top: 20px;
+      font-size: 1.8em;
+    }
+
+    h3 {
+      margin-top: 10px;
+      font-size: 1.5em;
+    }
+
+    p {
+      margin: 10px 0;
+      color: #555;
+      line-height: 1.6;
+    }
+
+    ul {
+      margin: 10px 0;
+      padding-left: 20px;
+      color: #555;
+    }
+
+    .skills p {
+      margin: 0;
+      display: inline-block;
+      color: #fff;
+      background-color: #16325e;
+      padding: 5px 10px;
+      border-radius: 20px;
+      margin-right: 10px;
+    }
+
+    .projects .project {
+      margin-bottom: 20px;
+    }
+
+    .projects h3 {
+      margin-bottom: 5px;
+      color: #333;
+    }
+
+    .projects p {
+      margin: 5px 0;
+      color: #555;
+      line-height: 1.6;
+    }
+
+    .work-experience h3,
+    .education h2,
+    .skills h2,
+    .projects h2 {
+      color: #16325e;
+      border-bottom: 2px solid #16325e;
+      padding-bottom: 5px;
+      margin-bottom: 20px;
+    }
+
+    .education p,
+    .work-experience p {
+      line-height: 1.6;
+    }
+
+    .project {
+      border-left: 3px solid #16325e;
+      padding-left: 20px;
+    }
+
+    @media screen and (max-width: 768px) {
+      .box {
+        flex-basis: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="box">
+      <div class="head">
+        <div class="img-area">
+          <img src="emeilou.jpg" alt="no Internet">
+        </div>
+        <h1><strong>Emeilou Bularon</strong></h1>
+        <h3>Web Developer</h3>
+      </div>
+    </div>
+    <div class="box">
+      <div class="header">
+        <h2>Personal Information</h2>
+        <p><strong>Name:</strong> Emeilou Bularon</p>
+        <p><strong>Age:</strong> 20</p>
+        <p><strong>Gender:</strong> Female</p>
+        <p><strong>Facebook:<a href="https://www.facebook.com/emeilou.bularon.90"> Emeilou Bularon</a></p>
+        <p><strong>GitHub: <a href="https://github.com/EmeilouBularon">github.com/Emeilou</a></p>
+        <p><strong>Email:</strong> emeiloubularon3@gmail.com</p>
+        <p><strong>Phone:</strong> 09074511232</p>
+        <p><strong>Address:</strong> Purok-3 Mansabay Bajo Lopez Jaena Misamis Occidental</p>
+      </div>
+    </div>
+    <div class="box">
+      <div class="header">
+        <h2>Education</h2>
+        <div class="education">
+          <p><strong>Degree:</strong> Bachelor of Science in Information Technology</p>
+          <p><strong>School:</strong> University of Science and Technology of Southern Philippines</p>
+          <p><strong>Graduation:</strong> 2022-2026</p>
+        </div>
+      </div>
+    </div>
+    <div class="box">
+      <div class="header">
+        <h2>Work Experience</h2>
+        <div class="work-experience">
+          <p>Software Developer</p>
+          <p>Gotkonxo Company,</p>
+          <p>April 2027 - Present</p>
+          <h3>Responsibilities:</h3>
+          <ul>
+            <li>Collaborating with team members to design and implement new features</li>
+            <li>Testing and debugging code to ensure high-quality software</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="box">
+      <div class="header">
+        <h2>Skills</h2>
+        <div class="skills">
+          <p>Programming Languages: HTML, CSS, JavaScript</p>
+          <p>Database: SQL</p>
+        </div>
+      </div>
+    </div>
+    <div class="box">
+      <div class="header">
+        <h2>Projects</h2>
+        <div class="projects">
+          <div class="project">
+            <h3>Online Portfolio</h3>
+            <p>A personal website showcasing my projects and skills. Developed using HTML, CSS, and JavaScript.</p>
+          </div>
+          <div class="project">
+            <h3>E-commerce Website</h3>
+            <p>Developed a fully functional e-commerce website using React.js for the frontend and Firebase for backend services.</p>
+          </div>
+          <div class="project">
+            <h3>Data Visualization Dashboard</h3>
+            <p>Designed and implemented a data visualization dashboard using D3.js library to display analytics data.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
